@@ -54,3 +54,7 @@ jobs:
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: ${{ inputs.draftRelease }}
           prerelease: ${{ inputs.preRelease }}
+   install-emception:
+      steps:
+         - name: exe-shellscript
+           run: ./emception_build.sh
